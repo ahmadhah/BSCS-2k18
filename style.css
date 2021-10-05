@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  align-items: center;
+  background-image: url('./BeFunky-photo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .bodyc{
+    background-color: #D5D6D3;
+} */
+.newup {
+}
+.header {
+  font-family: 'Alata', sans-serif;
+  color: white;
+  opacity: 0.7;
+  background-color: black;
+  text-align: center;
+  font-style: bold;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-size: 3em;
+}
+
+.footer {
+  background-color: black;
+  opacity: 0.9;
+  height: 80px;
+}
+
+img {
+  border: 2px solid black;
+  box-shadow: 2px 5px 10px black;
+  max-width: 90%;
+  width: 90%;
+  position: relative;
+  max-height: 360px;
+
+  margin-bottom: 50px;
+  margin-left: 5%;
+  border-radius: 5px;
+  display: flex;
+  display: block;
+}
+.current {
+  background-color: green;
+  font-family: 'Alata', sans-serif;
+  width: 80%;
+  height: 40px;
+  vertical-align: auto;
+  margin-left: 10%;
+  text-align: center;
+  color: white;
+  box-shadow: 2px 5px 10px black;
+}
+
+.w {
+  color: rgba(255, 255, 255, 0.89) !important;
+}
+.timetable {
+  border: 2px solid black;
+  max-height: 100%;
+  width: 0 auto !important;
+  max-width: 80% !important;
+}
+.table1 th {
+  background-color: #99ad6a;
+  border-radius: 4px;
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+  color: white;
+  box-shadow: 2px 5px 10px black;
+  margin: 5%;
+}
+.second-heading {
+  background-color: red;
+  font-family: 'Alata', sans-serif;
+
+  width: 80%;
+  height: auto;
+  vertical-align: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10%;
+  text-align: center;
+  color: white;
+  box-shadow: 2px 5px 10px black;
+  margin-bottom: 10px;
+}
+.abc ul li {
+  display: inline;
+}
+.body-content {
+  width: 80%;
+  height: auto;
+  text-align: left;
+  margin-left: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  text-transform: capitalize;
+}
+
+.timetable {
+  height: 100%x;
+  width: 0 auto;
+  margin-bottom: 0% !important;
+}
+
+@media only screen and (max-width: 700px) {
+  p {
+    margin-right: 15px !important;
+  }
+  .dep {
+    display: none;
+  }
+
+  .figc {
+    margin-top: 0% !important;
+    margin-bottom: 20px;
+  }
+  .time {
+    margin-top: 2px !important;
+  }
+  table {
+    width: 350px;
+
+    font-size: small !important;
+    text-align: left !important;
+    background-color: black;
+    opacity: 0.8;
+  }
+  td {
+    color: white !important;
+    margin: auto !important;
+    text-align: left !important;
+    padding-right: 2% !important;
+  }
+
+  .table1 th {
+    background-color: #99ad6a;
+    border-radius: 4px;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 5px 10px black;
+    margin: 5%;
+  }
+  .name {
+    color: black;
+    margin-bottom: 0px !important;
+  }
+
+  .header {
+    height: 200px;
+    color: black;
+    width: 100%;
+    padding-top: 20%;
+    z-index: 10;
+    font-size: 1.5em;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    background-image: url('header2.jpg');
+    opacity: 1;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .body2 {
+    position: relative;
+    top: 20px;
+  }
+  body {
+    background-image: url('./BeFunky-photo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 0;
+    /* Full height */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .timetable {
+    margin-bottom: 0;
+  }
+  .footer {
+    background-color: black;
+    opacity: 0.9;
+    height: 65px;
+    margin-top: 20px;
+  }
+  .newup {
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  img {
+    margin-top: 20px;
+  }
+  .name {
+    display: none;
+  }
+}
